@@ -6,13 +6,13 @@ async function main() {
   console.log(`Deploying contract from: ${deployer.address}`);
 
   // Hardhat helper to get the ethers contractFactory object
-  const DhenNFT = await ethers.getContractFactory('DhenNFT');
+  const DheNFT = await ethers.getContractFactory('DheNFT');
 
   // Deploy the contract
-  console.log('Deploying DhenNFT...');
-  const dhenNFTToken = await DhenNFT.deploy();
-  await dhenNFTToken.deployed();
-  console.log(`DhenNFT deployed to: ${dhenNFTToken.address}`)
+  console.log('Deploying DheNFT...');
+  const dheNFTToken = await DheNFT.deploy();
+  await dheNFTToken.deployed();
+  console.log(`DheNFT deployed to: ${dheNFTToken.address}`)
 }
 
 // We recommend this pattern to be able to use async/await everywhere
