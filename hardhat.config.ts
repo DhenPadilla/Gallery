@@ -12,11 +12,11 @@ const MAINNET_PRIVATE_KEY = process.env.CELO_MAIN_NET_PRIVATE_KEY;
 const MAINNET_RPC_URL = process.env.CELO_MAIN_NET_RPC_URL;
 
 // Show an error if environment variables are missing
-if (!ALFAJORES_PRIVATE_KEY) {
+if (!MAINNET_PRIVATE_KEY) {
   console.error("Missing PRIVATE_KEY environment variable");
 }
 
-if (!ALFAJORES_RPC_URL) {
+if (!MAINNET_RPC_URL) {
   console.error("Missing RPC_URL environment variable");
 }
 

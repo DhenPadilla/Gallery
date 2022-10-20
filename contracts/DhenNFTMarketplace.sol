@@ -105,9 +105,6 @@ contract DheNFTMarketplace {
         // Buyer must have sent through cGLD of the correct price
         require(msg.value == listing.price, "That is the incorrect funds");
 
-        // Delete listing from the marketplace
-        delete listings[dheNFTokenId];
-
         // Transfer the NFT from seller (Dhen) to buyer
         IERC721(dheNFTContractAddress).safeTransferFrom(
             listing.seller,
