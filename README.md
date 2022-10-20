@@ -1,3 +1,3 @@
 # DheNFT & DheNFT Marketplace built on Solidity, deployed on Celo 
 
-![celo](https://cryptologos.cc/logos/celo-celo-logo.png?v=023 =250x250)
+![celo](https://cryptologos.cc/logos/celo-celo-logo.png?v=023)
